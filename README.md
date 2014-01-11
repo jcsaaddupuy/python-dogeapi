@@ -17,19 +17,19 @@ Examples :
 ```python
 from dogeapi.wow import Doge
 
-print Doge("SUCH ADRESS").get_balance()
-addresses = Doge("SUCH ADRESS").get_my_addresses()
+print Doge("SUCH API KEY").get_balance()
+addresses = Doge("SUCH API KEY").get_my_addresses()
 
 for address in addresses :
-    print address, Doge("SUCH ADRESS").get_address_received(payment_address = address)
+    print address, Doge("SUCH API KEY").get_address_received(payment_address = address)
 
- print Doge("SUCH ADRESS").get_address_by_label(address_label = "main")
+ print Doge("SUCH API KEY").get_address_by_label(address_label = "main")
 
 print Doge().get_current_block()
 print Doge().get_difficulty()
 
-print Doge("SUCH ADRESS").get_new_address(address_label = "WOW SuCH TEST PYTHON API")
-print Doge("SUCH ADRESS").withdraw(amount = 5, payment_address = "VERY SHIBE")
+print Doge("SUCH API KEY").get_new_address(address_label = "WOW SuCH TEST PYTHON API")
+print Doge("SUCH API KEY").withdraw(amount = 5, payment_address = "VERY SHIBE")
 
 ```
 
