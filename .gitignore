@@ -1,9 +1,7 @@
-<<<<<<< HEAD
 *.pyc
 dist/
 build/
 *.swp
-=======
 *.py[cod]
 
 # C extensions
@@ -40,4 +38,3 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
->>>>>>> upstream/master
