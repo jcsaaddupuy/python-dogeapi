@@ -1,0 +1,8 @@
+setup.py
+src/doge/__init__.py
+src/doge/doge.py
+src/dogeapi.egg-info/PKG-INFO
+src/dogeapi.egg-info/SOURCES.txt
+src/dogeapi.egg-info/dependency_links.txt
+src/dogeapi.egg-info/requires.txt
+src/dogeapi.egg-info/top_level.txt
