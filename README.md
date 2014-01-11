@@ -2,13 +2,13 @@ python-dogeapi
 ==============
 Python module for dogeapi.com
 
-Provide a class to access [DogeApi][https://www.dogeapi.com] API.
+Provide a class to access [DogeApi](https://www.dogeapi.com) API.
 
 ```sh
 pip install python-dogeapi
 ```
 
-All methods from [the exposed API][https://www.dogeapi.com/api_documentation] are availables with their argument.
+All methods from [the exposed API](https://www.dogeapi.com/api_documentation) are availables with their argument.
 
 HTTP arguments must be passed as named python arguments.
 
