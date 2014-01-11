@@ -29,7 +29,7 @@ print Doge().get_current_block()
 print Doge().get_difficulty()
 
 print Doge("SUCH ADRESS").get_new_address(address_label = "WOW SuCH TEST PYTHON API")
-print Doge("SUCH ADRESS").withdraw(amount = 5, payment_address = "DFSzxeWRXVALxVUdNF1Dk2WjqbF8b7mWjV")
+print Doge("SUCH ADRESS").withdraw(amount = 5, payment_address = "VERY SHIBE")
 
 ```
 
