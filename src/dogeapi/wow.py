@@ -29,7 +29,7 @@ class DogeTransport(object):
 
         if response.ok :
             return response.json()
-        raise BadShibeException("Problem while fetching datas")
+        raise SuchBadShibeException("Problem while fetching datas")
 
 class Doge(object):
     """ Such API client """
